@@ -1,7 +1,14 @@
 /* =================================
     Base Layout Styles
 ==================================*/
+
+body {
 font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+}
 
 
 
@@ -11,5 +18,5 @@ font-family: 'Roboto', sans-serif;
 ==================================*/
 
 @media (min-width: 769px) {
-    
+
 }
