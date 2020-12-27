@@ -95,43 +95,55 @@ img {
 
 @media (min-width: 769px) {
     .container {
-        width: 90%;
+        width: 100%;
         max-width: 1150px;
         margin: 0 auto;
         display: flex;
+        justify-content: center;
     }
     .main-header,
     .main-nav {
         display: flex;
         align-items: center;
     }
+
+    li {
+        background-color: #f8f8f8;
+    }
     .main-header {
         flex-direction: column;
         align-items: center;
     }
-
+    .portfolio {
+        padding: 3em 0 2em 0;
+    }
     .primary {
-    width:45%;
+    width: 45%;
     }
 
     .secondary {
         width: 45%;
     }
-    
+   
     .profile {
-        padding: 0 2em 0 2em;
+        padding: 3em 1em 0 2em;
+        width: 45%;
+        height: 25%;
        
     }
 
+    .three {
+        margin-top: 1.1em;
+    }
     .img {
-        padding: 1em;
-      
+    padding: 1em;  
     }
 
     .profile-text {
         order: -1;
-        font-size: 185%;
+        font-size: 120%;
         text-align: left;
+        margin: 3em 0 0 .5em;
 
     }
     .f1 {
@@ -142,7 +154,6 @@ img {
         display: flex;
     }
 
- 
-
-
 }
+
+
