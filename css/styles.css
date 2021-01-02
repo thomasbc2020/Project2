@@ -30,7 +30,7 @@ h3 {
     font-weight: bolder;
 }
 
-.profile {
+.profile-image {
     display: block;
     margin: 0 auto;
     width: 60%;
@@ -67,6 +67,7 @@ li {
 }
 .container {
     width: 90%;
+    margin: 0 auto;
 }
 
 /* ----  ---- */
@@ -91,25 +92,59 @@ img {
 ==================================*/
 
 @media (min-width: 768px) {
-  
-    .container {
-        width: 90%;
-        align-items: center;
-       	
+ 
+    ul {
+        display: block;
     }
-    .primary {
-        width: 45%;
-        float: left;
-    }
-
-    .secondary {
-       width: 45%;
-        float: right;
+   
+    li { 
+        display: inline-block;
+        margin: 0 auto;
     }
     
-    .clearfix::after {
-		content: "";
-		display: table;
-		clear: both;	
-	}
-}
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    .portfolio {
+        margin: 35px;
+    }
+    .profile-container {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .col {
+        width: 50%;
+        float: left;
+        padding: 10px;
+        min-height: 420px;
+      }
+    .profile-text {
+        float: left;
+        width: 60%;
+        text-align: justify;
+        padding: 5px 25px;
+        line-height: 2em;
+        font-size: larger;
+        font-weight: bolder;
+        letter-spacing: 2px;
+    }
+    .profile-image {
+        float: right;
+        width: 40%;
+    }
+    }
+
+    @media (min-width: 1024px) {
+        .col {
+            width: 33%;
+            float: left;
+            padding: 10px;
+            min-height: 420px;
+          }
+    }
