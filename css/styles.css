@@ -227,6 +227,20 @@ hr {
         float: right;
         width: 42%;
     }
+    .medium-footer-nav{
+        display: inline;
+        float: right;
+        color: black;
+        font-weight: bolder;
+        margin: 0 2em 5em 0;
+    }
+    .student-name {
+        margin: .5em 0 5em 2em;
+        text-align: justify;
+    }
+    .back-to-top {
+        display: none;
+    }
     }
 
     @media (min-width: 1024px) {
