@@ -250,4 +250,30 @@ hr {
             padding: 10px;
             min-height: 420px;
           }
+        .container {
+            margin: 0 auto;
+            width: 97%;
+        }
+        body {
+         
+        }
+        .footer-text {
+            width: 50%;
+        }
+        div.footer {
+            margin-bottom: 5px;
+        }
+        p:last-child {
+            margin-bottom: 0px;
+        }
+        .container {
+            margin-bottom: 60px;
+        }
+        .portfolio {
+            padding-top: 40px;
+            padding-bottom: 0px;
+        }
+       .small-footer-nav {
+            margin-bottom: -20px;
+        }
     }
