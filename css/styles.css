@@ -185,6 +185,7 @@ hr {
 @media (min-width: 768px) {
     .main-header {
         padding-top: 35px;
+        margin-bottom: 50px;
     }
     .main-nav {
         margin: 0 auto;
@@ -218,12 +219,13 @@ hr {
         float: left;
         padding: 10px;
         min-height: 420px;
+        margin-top: 10px; 
       }
     .profile-text {
         float: left;
         width: 58%;
         text-align: justify;
-        padding: 5px 25px;
+        padding: 5px 50px;
         line-height: 2em;
         font-size: larger;
         font-weight: bolder;
