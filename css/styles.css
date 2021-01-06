@@ -232,7 +232,7 @@ hr {
         float: right;
         color: black;
         font-weight: bolder;
-        margin: 0 2em 5em 0;
+        margin: 0 2em 2em 0;
     }
     .student-name {
         margin: .5em 0 5em 2em;
@@ -244,6 +244,12 @@ hr {
     }
 
     @media (min-width: 1024px) {
+        .name {
+            float: left;
+        }
+        ul {
+            float: right;
+        }
         .col {
             width: 33%;
             float: left;
@@ -261,7 +267,7 @@ hr {
             width: 50%;
         }
         div.footer {
-            margin-bottom: 5px;
+            margin-bottom: 0px;
         }
         p:last-child {
             margin-bottom: 0px;
